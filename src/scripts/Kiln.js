@@ -1,10 +1,10 @@
-export const firePottery = (cup, tempature) => {
-cup.fired = true
+export const firePottery = (mug, tempature) => {
+mug.fired = true
 if ( tempature > 2200) {
-    cup.cracked = true
+    mug.cracked = true
 }
     else {
-        cup.cracked = false
+        mug.cracked = false
     }
-    return cup
+    return mug
 }
